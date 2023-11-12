@@ -1,5 +1,781 @@
 return {
     {
+        Label = 'Couple with weapon male',
+        Command = 'cwweaponm',
+        Animation = 'couple_with_weapon_m_clip',
+        Dictionary = 'couple_with_weapon_m@darks37',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cwweaponf',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple with weapon female',
+        Command = 'cwweaponf',
+        Animation = 'couple_with_weapon_f_clip',
+        Dictionary = 'couple_with_weapon_f@darks37',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cwweaponm',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple kiss male',
+        Command = 'ckissm',
+        Animation = 'couple_kiss_m_clip',
+        Dictionary = 'couple_kiss_m@darks37',
+        Options = {
+            Shared = {
+                OtherAnimation = 'ckissf',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple kiss female',
+        Command = 'ckissf',
+        Animation = 'couple_kiss_f_clip',
+        Dictionary = 'couple_kiss_fm@darks37',
+        Options = {
+            Shared = {
+                OtherAnimation = 'ckissm',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple bed male',
+        Command = 'cbedm',
+        Animation = 'couple_bed_m_clip',
+        Dictionary = 'couple_bed_m@darks37',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cbedf',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple bed female',
+        Command = 'cbedf',
+        Animation = 'couple_bed_f_clip',
+        Dictionary = 'couple_bed_f@darks37',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cbedm',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple car male',
+        Command = 'ccarm',
+        Animation = 'car_couple_m_clip',
+        Dictionary = 'car_couple_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'ccarf',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple car female',
+        Command = 'ccarf',
+        Animation = 'car_couple_f_clip',
+        Dictionary = 'car_couple_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'ccarm',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 1',
+        Command = 'cposem',
+        Animation = 'couple_mikey_m_clip',
+        Dictionary = 'couple_mikey_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 1',
+        Command = 'cposef',
+        Animation = 'couple_mikey_f_clip',
+        Dictionary = 'couple_mikey_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 2',
+        Command = 'cposem2',
+        Animation = 'couple_1_m_clip',
+        Dictionary = 'couple_1_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef2',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 2',
+        Command = 'cposef2',
+        Animation = 'couple_1_f_clip',
+        Dictionary = 'couple_1_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem2',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 3',
+        Command = 'cposem3',
+        Animation = 'couple_3_m_clip',
+        Dictionary = 'couple_3_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef3',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 3',
+        Command = 'cposef3',
+        Animation = 'couple_3_f_clip',
+        Dictionary = 'couple_3_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem3',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 4',
+        Command = 'cposem4',
+        Animation = 'couple_6_m_clip',
+        Dictionary = 'couple_6_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef4',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 4',
+        Command = 'cposef4',
+        Animation = 'couple_6_f_clip',
+        Dictionary = 'couple_6_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem4',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 5',
+        Command = 'cposem5',
+        Animation = 'couple_7_m_clip',
+        Dictionary = 'couple_7_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef5',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 5',
+        Command = 'cposef5',
+        Animation = 'couple_7_f_clip',
+        Dictionary = 'couple_7_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem5',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 6',
+        Command = 'cposem6',
+        Animation = 'psssh_m_clip',
+        Dictionary = 'psssh_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef6',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 6',
+        Command = 'cposef6',
+        Animation = 'psssh_f_clip',
+        Dictionary = 'psssh_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem6',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 7',
+        Command = 'cposem7',
+        Animation = 'hidden_boy_m_clip',
+        Dictionary = 'hidden_boy_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef7',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 7',
+        Command = 'cposef7',
+        Animation = 'hidden_boy_f_clip',
+        Dictionary = 'hidden_boy_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem7',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 8',
+        Command = 'cposem8',
+        Animation = 'rail_m_clip',
+        Dictionary = 'rail_m@sel',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef8',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 8',
+        Command = 'cposef8',
+        Animation = 'rail_f_clip',
+        Dictionary = 'rail_f@sel',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem8',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 9',
+        Command = 'cposem9',
+        Animation = 'mirror_couple_m_clip',
+        Dictionary = 'mirror_couple_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef9',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 9',
+        Command = 'cposef9',
+        Animation = 'mirror_couple_f_clip',
+        Dictionary = 'mirror_couple_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem9',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 10',
+        Command = 'cposem10',
+        Animation = 'couple_arm_m_clip',
+        Dictionary = 'couple_arm_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef10',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 10',
+        Command = 'cposef10',
+        Animation = 'couple_arm_f_clip',
+        Dictionary = 'couple_arm_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem10',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 11',
+        Command = 'cposem11',
+        Animation = 'bike_couple_deamon_m_clip',
+        Dictionary = 'bike_couple_deamon_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef11',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose gemale 11',
+        Command = 'cposef11',
+        Animation = 'bike_couple_deamon_f_clip',
+        Dictionary = 'bike_couple_deamon_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem11',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 12',
+        Command = 'cposem12',
+        Animation = 'beach_couple_m_clip',
+        Dictionary = 'beach_couple_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef12',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 12',
+        Command = 'cposef12',
+        Animation = 'beach_couple_f_clip',
+        Dictionary = 'beach_couple_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem12',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 13',
+        Command = 'cposem13',
+        Animation = 'submissive_m_clip',
+        Dictionary = 'submissive_m@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef13',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 13',
+        Command = 'cposef13',
+        Animation = 'submissive_f_clip',
+        Dictionary = 'submissive_f@darksj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem13',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 14',
+        Command = 'cposem14',
+        Animation = 'couple_cool_male_clip',
+        Dictionary = 'couple_cool_male@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef14',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 14',
+        Command = 'cposef14',
+        Animation = 'couple_cool_female_clip',
+        Dictionary = 'couple_cool_female@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem14',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 15',
+        Command = 'cposem15',
+        Animation = 'couple_cuddle_male_clip',
+        Dictionary = 'couple_cuddle_male@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef15',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 15',
+        Command = 'cposef15',
+        Animation = 'couple_cuddle_female_clip',
+        Dictionary = 'couple_cuddle_female@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem15',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 16',
+        Command = 'cposem16',
+        Animation = 'couple_male_fhkiss_clip',
+        Dictionary = 'couple_male_fhkiss@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef16',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 16',
+        Command = 'cposef16',
+        Animation = 'couple_female_fhkiss_clip',
+        Dictionary = 'couple_female_fhkiss@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem16',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 17',
+        Command = 'cposem17',
+        Animation = 'picture_back_m_clip',
+        Dictionary = 'picture_back_m@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef17',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 17',
+        Command = 'cposef17',
+        Animation = 'picture_back_f_clip',
+        Dictionary = 'picture_back_f@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem17',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 18',
+        Command = 'cposem18',
+        Animation = 'cuddle_couple_m_1_clip',
+        Dictionary = 'cuddle_couple_m_1@janina234',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef18',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 18',
+        Command = 'cposef18',
+        Animation = 'cuddle_couple_w_1_clip',
+        Dictionary = 'cuddle_couple_w_1@janina234',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem18',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 19',
+        Command = 'cposem19',
+        Animation = 'hug_couple_m_clip',
+        Dictionary = 'hug_couple_m@janina234',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef19',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 19',
+        Command = 'cposef19',
+        Animation = 'hug_couple_f_clip',
+        Dictionary = 'hug_couple_f@janina234',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem19',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 20',
+        Command = 'cposem20',
+        Animation = 'kiss_couple_m_clip',
+        Dictionary = 'kiss_couple_m@janina234',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef20',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 20',
+        Command = 'cposef20',
+        Animation = 'kiss_couple_f_clip',
+        Dictionary = 'kiss_couple_f@janina234',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem20',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 21',
+        Command = 'cposem21',
+        Animation = 'couple_anim_1a_clip',
+        Dictionary = 'couple_anim_1a@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef21',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 21',
+        Command = 'cposef21',
+        Animation = 'couple_anim_1b_clip',
+        Dictionary = 'couple_anim_1b@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem21',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 22',
+        Command = 'cposem22',
+        Animation = 'sofa_couple_m_clip',
+        Dictionary = 'sofa_couple_m@daj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef22',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 22',
+        Command = 'cposef22',
+        Animation = 'sofa_couple_w_clip',
+        Dictionary = 'sofa_couple_w@daj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem22',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose male 23',
+        Command = 'cposem23',
+        Animation = 'gamer_selfie_m_clip',
+        Dictionary = 'gamer_selfie_m@daj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposef23',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple pose female 23',
+        Command = 'cposef23',
+        Animation = 'gamer_selfie_w_clip',
+        Dictionary = 'gamer_selfie_w@daj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'cposem23',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple bag male',
+        Command = 'cbagm',
+        Animation = 'couple_backpack_male_clip',
+        Dictionary = 'couple_backpack_male@dark',
+        Options = {
+            Flags = {
+                Move = true,
+            },
+            Shared = {
+                OtherAnimation = 'cbagf',
+            },
+        },
+    },
+
+    {
+        Label = 'Couple bag female',
+        Command = 'cbagf',
+        Animation = 'couple_backpack_female_clip',
+        Dictionary = 'couple_backpack_female@dark',
+        Options = {
+            Flags = {
+                Move = true,
+            },
+            Shared = {
+                OtherAnimation = 'cbagm',
+            },
+        },
+    },
+
+    {
+        Label = 'Best Friends 1',
+        Command = 'bff1a',
+        Animation = 'best_friends_1a_clip',
+        Dictionary = 'best_friends_1a@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'bff2',
+            },
+        },
+    },
+
+    {
+        Label = 'Best Friends 2',
+        Command = 'bff1b',
+        Animation = 'best_friends_1_clip',
+        Dictionary = 'best_friends_1@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'bff1',
+            },
+        },
+    },
+
+    {
+        Label = 'Best Friends 3',
+        Command = 'bff2a',
+        Animation = 'best_friends_2a_clip',
+        Dictionary = 'best_friends_2a@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'bff2b',
+            },
+        },
+    },
+
+    {
+        Label = 'Best Friends 4',
+        Command = 'bff2b',
+        Animation = 'best_friends_2_clip',
+        Dictionary = 'best_friends_2@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'bff2a',
+            },
+        },
+    },
+
+    {
+        Label = 'Best Friends 5',
+        Command = 'bff5',
+        Animation = 'bff_a_clip',
+        Dictionary = 'bff_a@daj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'bff6',
+            },
+        },
+    },
+
+    {
+        Label = 'Best Friends 6',
+        Command = 'bff6',
+        Animation = 'bff_b_clip',
+        Dictionary = 'bff_b@daj',
+        Options = {
+            Shared = {
+                OtherAnimation = 'bff5',
+            },
+        },
+    },
+
+    {
+        Label = 'Group left',
+        Command = 'gleft',
+        Animation = 'group_coule_left_clip',
+        Dictionary = 'group_coule_left@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'gmiddle',
+            },
+        },
+    },
+
+    {
+        Label = 'Group midle',
+        Command = 'gmiddle',
+        Animation = 'group_coule_middle_clip',
+        Dictionary = 'group_coule_middle@dark',
+        Options = {
+            Shared = {
+                OtherAnimation = 'gleft',
+            },
+        },
+    },
+
+    ------------------------
+
+    {
         Label = 'Baseball',
         Command = 'sbaseball',
         Animation = 'baseball_a_player_a',
@@ -42,6 +818,126 @@ return {
             Shared = {
                 FrontOffset = 1.14,
                 OtherAnimation = 'sbro',
+            },
+        },
+    },
+    {
+        Label = 'Bro 3',
+        Command = 'sbro3',
+        Animation = 'da_boys_2_clip',
+        Dictionary = 'da_boys_2@dark',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro4',
+            },
+        },
+    },
+    {
+        Label = 'Bro 4',
+        Command = 'sbro4',
+        Animation = 'da_boys_1_clip',
+        Dictionary = 'da_boys_1@dark',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro3',
+            },
+        },
+    },
+    {
+        Label = 'Bro 5',
+        Command = 'sbro5',
+        Animation = 'male_duo1_clip',
+        Dictionary = 'male_duo1@nxsty',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro6',
+            },
+        },
+    },
+    {
+        Label = 'Bro 6',
+        Command = 'sbro6',
+        Animation = 'male_duo2_clip',
+        Dictionary = 'male_duo2@nxsty',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro5',
+            },
+        },
+    },
+    {
+        Label = 'Bro 7',
+        Command = 'sbro7',
+        Animation = 'male_duo_a_clip',
+        Dictionary = 'male_duo_a@darksj',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro8',
+            },
+        },
+    },
+    {
+        Label = 'Bro 8',
+        Command = 'sbro8',
+        Animation = 'male_duo_b_clip',
+        Dictionary = 'male_duo_b@darksj',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro7',
+            },
+        },
+    },
+    {
+        Label = 'Bro 9',
+        Command = 'sbro9',
+        Animation = 'buddys_a_clip',
+        Dictionary = 'buddys_a@darksj',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro10',
+            },
+        },
+    },
+    {
+        Label = 'Bro 10',
+        Command = 'sbro10',
+        Animation = 'buddys_b_clip',
+        Dictionary = 'buddys_b@darksj',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro9',
+            },
+        },
+    },
+    {
+        Label = 'Bro 11',
+        Command = 'sbro11',
+        Animation = 'pax_a_clip',
+        Dictionary = 'pax_a@darksj',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro12',
+            },
+        },
+    },
+    {
+        Label = 'Bro 12',
+        Command = 'sbro12',
+        Animation = 'pax_b_clip',
+        Dictionary = 'pax_b@darksj',
+        Options = {
+            Shared = {
+                --FrontOffset = 1.14,
+                OtherAnimation = 'sbro11',
             },
         },
     },

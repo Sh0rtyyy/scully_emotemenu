@@ -1,4 +1,31 @@
 return {
+
+    {
+        Label = 'Skateboard In Hand',
+        Command = 'skatehand',
+        Animation = 'skateboard_hand_clip',
+        Dictionary = 'skateboard_hand@darkssj',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+
+    {
+        Label = 'Selfie Skateboard',
+        Command = 'selfieskate',
+        Animation = 'skate_selfie_clip',
+        Dictionary = 'skate_selfie@janina234',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+
+    ----------------------------------------
+
     {
         Label = 'Adjust',
         Command = 'adjust',
@@ -1345,6 +1372,18 @@ return {
         },
     },
     {
+        Label = 'Hands in Pockets 3',
+        Command = 'handsinpockets3',
+        Animation = 'w_walk_hoodie_clip',
+        Dictionary = 'w_walk_hoodie@daj',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+        },
+    },
+    {
         Label = 'Hands Up',
         Command = 'handsup',
         Animation = 'handsup_base',
@@ -2151,6 +2190,17 @@ return {
         Command = 'leanside4',
         Animation = 'waitloop_lamar',
         Dictionary = 'misscarstealfinalecar_5_ig_1',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Lean Weapon',
+        Command = 'leanw',
+        Animation = 'lean_weapon_clip',
+        Dictionary = 'lean_weapon@dad',
         Options = {
             Flags = {
                 Loop = true,
@@ -3107,12 +3157,90 @@ return {
         },
     },
     {
-        Label = 'Prone',
-        Command = 'prone',
-        Animation = 'prone_dave',
-        Dictionary = 'missfbi3_sniping',
+        Label = 'Pose 18',
+        Command = 'pose18',
+        Animation = 'female_solo_stand_clip',
+        Dictionary = 'female_solo_stand@darksj',
         Options = {
             Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Pose 19',
+        Command = 'pose19',
+        Animation = 'stand_cute_female_dark_clip',
+        Dictionary = 'stand_cute_female_dark@animation',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Pose 20',
+        Command = 'pose20',
+        Animation = 'sit_cute_2_clip',
+        Dictionary = 'sit_cute_2@dark',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Pose 21',
+        Command = 'pose21',
+        Animation = 'stand_cute_6_clip',
+        Dictionary = 'stand_cute_6@dark',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Pose 22',
+        Command = 'pose22',
+        Animation = 'stand_baseball_female_clip',
+        Dictionary = 'stand_baseball_female@dark',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Pose 23',
+        Command = 'pose23',
+        Animation = 'look_squat_clip',
+        Dictionary = 'look_squat@dad',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Pose 24',
+        Command = 'pose24',
+        Animation = 'solo_anim_7_clip',
+        Dictionary = 'solo_anim_7@dark',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Pose With Weapon',
+        Command = 'posewweapon',
+        Animation = 'woman_pistol_clip',
+        Dictionary = 'woman_pistol@daj',
+        Options = {
+            Flags = {
+                Move = true,
                 Loop = true,
             },
         },
@@ -3367,6 +3495,18 @@ return {
         },
     },
     {
+        Label = 'Selfie',
+        Command = 'slefie',
+        Animation = 'selfie_up_1_clip',
+        Dictionary = 'selfie_up_1@dark',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+        },
+    },
+    {
         Label = 'Sexy Pose',
         Command = 'sexypose',
         Animation = 'sexy003',
@@ -3427,7 +3567,7 @@ return {
         NSFW = true,
     },
     {
-        Label = 'Sexy Pose 5',
+        Label = 'Sexy Pose 6',
         Command = 'sexypose6',
         Animation = 'sexy012',
         Dictionary = 'littlespoon@sexy012',
@@ -3437,6 +3577,76 @@ return {
             },
         },
         NSFW = true,
+    },
+    {
+        Label = 'Sexy pose 7',
+        Command = 'sexypose7',
+        Animation = 'sexy_girls_pose1_clip',
+        Dictionary = 'sexy_girls_pose1@darks37',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+
+    {
+        Label = 'Sexy pose 8',
+        Command = 'sexypose8',
+        Animation = 'sexy_girls_pose2_clip',
+        Dictionary = 'sexy_girls_pose2@darks37',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+
+    {
+        Label = 'Sexy pose 9',
+        Command = 'sexypose9',
+        Animation = 'sexy_girls_pose3_clip',
+        Dictionary = 'sexy_girls_pose3@darks37',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Sexy pose 10',
+        Command = 'sexypose10',
+        Animation = 'hot_female_1_clip',
+        Dictionary = 'hot_female_1@darks',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Sexy pose 11',
+        Command = 'sexypose11',
+        Animation = 'fuck_boob_clip',
+        Dictionary = 'fuck_boob@darksj',
+        Options = {
+            Flags = {
+                Move = true,
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Sexy pose 12',
+        Command = 'sexypose12',
+        Animation = 'female_sexyy_1_clip',
+        Dictionary = 'female_sexyy_1@darksj',
+        Options = {
+            Flags = {
+                Move = true,
+                Loop = true,
+            },
+        },
     },
     {
         Label = 'Shaka',
@@ -3762,6 +3972,17 @@ return {
         },
     },
     {
+        Label = 'Sit 14',
+        Command = 'sit14',
+        Animation = 'sit_stairs_clip',
+        Dictionary = 'sit_stairs@dad',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
         Label = 'Sit Chair',
         Command = 'sitchair',
         Animation = 'ig_5_p3_base',
@@ -3920,6 +4141,28 @@ return {
         Command = 'situp',
         Animation = 'idle_a',
         Dictionary = 'amb@world_human_sit_ups@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Sit Camera',
+        Command = 'sitcamera',
+        Animation = 'sit_camera_clip',
+        Dictionary = 'sit_camera@dark',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Sit Cute',
+        Command = 'sitcute',
+        Animation = 'sit_cute_1_clip',
+        Dictionary = 'sit_cute_1@dark',
         Options = {
             Flags = {
                 Loop = true,

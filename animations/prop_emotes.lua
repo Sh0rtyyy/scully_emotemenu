@@ -6518,6 +6518,50 @@ return {
         },
     },
     {
+        Label = 'Smoke 8',
+        Command = 'smoke8',
+        Animation = 'stand_smoke_clip',
+        Dictionary = 'stand_smoke@dad',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'bzzz_cigarpack_cig003',
+                    Placement = {
+                        vector3(0.000000, 0.000000, 0.000000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Smoke 9',
+        Command = 'smoke9',
+        Animation = 'smoke_dubsta_solo_clip',
+        Dictionary = 'smoke_dubsta_solo@darksj',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'bzzz_cigarpack_cig003',
+                    Placement = {
+                        vector3(0.000000, 0.000000, 0.000000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
         Label = 'SMS',
         Command = 'sms',
         Animation = 'cellphone_text_read_base',
